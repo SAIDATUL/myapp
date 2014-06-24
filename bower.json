@@ -1,13 +1,13 @@
 {
   "name": "myapp",
   "version": "0.1.0",
-  "homepage": "https://github.com/SAIDATUL/myapp",
+  "homepage": "https://github.com/firdausramlan/myapp",
+  "authors": [
+    "firdaus5775 <firdaus@kanntronics.com>"
+  ],
   "description": "My First Application",
   "main": "index.html",
-  "authors": [
-    "tumbelina5176@gmail.com"
-  ],
-  "license": "proprietary",
+  "license": "Proprietary",
   "private": true,
   "ignore": [
     "**/.*",
@@ -17,6 +17,8 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.1.1"
+    "bootstrap": "~3.1.1",
+    "less-elements": "*",
+    "fontawesome": "~4.1.0"
   }
 }
