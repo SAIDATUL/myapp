@@ -446,7 +446,9 @@
     	<br/>
     	<div class="row">
     		<div class="col-md-6">
-    		<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal" >Launch Modal</button>  
+    		<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal" >Launch Modal</button>
+    		<button class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModalTable" > Modal Table</button>  
+    		<button class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModalForm" > Modal Form</button>    
     		<div class="modal fade" id="myModal" tabindex="-1">
     			<div class="modal-dialog">
     				<div class="modal-content">
@@ -462,8 +464,198 @@
     				</div>
     			</div>
     		</div>
+    		
+    		
+    	
+    		
+    		<div class="modal fade" id="myModalTable" tabindex="-1">
+    			<div class="modal-dialog">
+    				<div class="modal-content">
+    					<div class="modal-header">
+    						<button type="button" class="close" data-dismiss="modal">&times;</button>
+    						<h4 class="modal-title">My Modal</h4>
+    					</div>
+    					
+    			<table class="table table-striped table-bordered table-condensed table-hover">
+                <thead>
+                <tr>
+                    <td class="text-center">Bil</td>
+                    <td>Nama</td>
+                    <td>No Kad Pengenalan</td>
+                    <td></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>Khairul Nizam  </td>
+                    <td>820819061143</td>
+                    <td><span class="glyphicon glyphicon-folder-open" style="color: #45B4EF;"></span></td>
+                </tr>
+                <tr class="danger">
+                    <td class="text-center">2</td>
+                    <td>Saidatul Zarifh</td>
+                    <td>841114065176</td>
+                    <td><span class="glyphicon glyphicon-folder-open"></span></td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>Khairul Affandi</td>
+                    <td>871115065169</td>
+                    <td><span class="glyphicon glyphicon-folder-open"></span></td>
+                </tr>
+                
+                </tbody>
+            </table>
+    					
+    					<div class="modal-footer">
+    						<button class="btn btn-default" data-dismiss="modal"> Close</button>
+    						<button class="btn btn-primary">Save Change</button>
+    					</div>
+    				
+    			</div>
     		</div>
-    	</div> 
+    		</div>
+    		
+    		<div class="modal fade" id="myModalForm" tabindex="-1">
+    			<div class="modal-dialog">
+    				<div class="modal-content">
+    					<div class="modal-header">
+    						<button type="button" class="close" data-dismiss="modal">&times;</button>
+    						<h4 class="modal-title">My Modal</h4>
+    					</div>
+    					<div class="modal-body">
+    					
+    					<form class="form-horizontal">
+    			<div class="form-group">
+	    			<label class="col-sm-2 control-label">Email </label>
+	    			<div class="col-sm-10">
+	    			<input type="email" class="form-control" placeholder="Email Address.."/> 
+	    			</div>  			
+    			</div>
+    			
+    			<div class="form-group">
+	    			<label class="col-sm-2 control-label"> Password</label>
+	    			<div class="col-sm-10">
+	    			<input type="password" class="form-control" placeholder="Password.."/>   	
+	    			</div>		
+    			</div>
+    			
+    			<div class="form-group">
+    			<div class="col-lg-offset-2 col-sm-10">
+    			<div class="checkbox">
+    					<label ><input type="checkbox" />Remember Me</label>    					
+    				</div>
+    			</div>
+    			</div>
+    			
+    			
+    			
+    			</form>
+    					
+    					</div>
+    					<div class="modal-footer">
+    						<button class="btn btn-default" data-dismiss="modal"> Close</button>
+    						<button class="btn btn-primary">Save Change</button>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		    	</div> 
+    	</div>
+    	
+    	<br/>
+    	<div class="row">
+    		<div class="col-md-6">
+    			<ul class="nav nav-tabs">
+    				<li class="active"><a href="#a" data-toggle="tab">Item A</a></li>
+    				<li><a href="#b" data-toggle="tab">Item B</a></li>
+    				<li><a href="#c" data-toggle="tab">Item C</a></li>
+    				<li><a href="#d" data-toggle="tab">Item D</a></li>
+    			</ul>
+    			
+    			<div class="tab-content">
+    				<div class="tab-pane active" id="a">
+    				<table class="table table-striped table-bordered table-condensed table-hover">
+                <thead>
+                <tr>
+                    <td class="text-center">Bil</td>
+                    <td>Nama</td>
+                    <td>No Kad Pengenalan</td>
+                    <td></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>Khairul Nizam  </td>
+                    <td>820819061143</td>
+                    <td><span class="glyphicon glyphicon-folder-open" style="color: #45B4EF;"></span></td>
+                </tr>
+                <tr class="danger">
+                    <td class="text-center">2</td>
+                    <td>Saidatul Zarifh</td>
+                    <td>841114065176</td>
+                    <td><span class="glyphicon glyphicon-folder-open"></span></td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>Khairul Affandi</td>
+                    <td>871115065169</td>
+                    <td><span class="glyphicon glyphicon-folder-open"></span></td>
+                </tr>
+                
+                </tbody>
+            </table>
+
+    				
+    				</div>
+    				<div class="tab-pane" id="b">
+    				<form class="form-horizontal">
+    			<div class="form-group">
+	    			<label class="col-sm-2 control-label">Email </label>
+	    			<div class="col-sm-10">
+	    			<input type="email" class="form-control" placeholder="Email Address.."/> 
+	    			</div>  			
+    			</div>
+    			
+    			<div class="form-group">
+	    			<label class="col-sm-2 control-label"> Password</label>
+	    			<div class="col-sm-10">
+	    			<input type="password" class="form-control" placeholder="Password.."/>   	
+	    			</div>		
+    			</div>
+    			
+    			<div class="form-group">
+    			<div class="col-lg-offset-2 col-sm-10">
+    			<div class="checkbox">
+    					<label ><input type="checkbox" />Remember Me</label>    					
+    				</div>
+    			</div>
+    			</div>
+    			
+    			<div class="form-group">
+    			<div class="col-lg-offset-2 col-sm-10">
+    		
+    					<button type="submit" class="btn btn-default">Submit</button>  					
+    				
+    			</div>
+    			</div>
+    			
+    			</form>
+    				
+    				</div>
+    				<div class="tab-pane" id="c">Pane C</div>
+    				<div class="tab-pane" id="d">Pane D</div>
+    			</div>
+    		</div>
+    		
+    		<div class="col-md-6">
+    		
+    		</div>
+    	
+    	</div>
+    	
      </div>
     
     
